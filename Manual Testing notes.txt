@@ -1,0 +1,478 @@
+Day - 3 JAT12WD : STLC and QA & QC Testings. 
+--------------------------------------------
+STLC: Software Testing Life Cycle. 
+
+Sequence of different activity performed only by Testing Team.
+
+02:29 PM 19-03-2024Phase 1: Requirement Analysis.
+Phase 2: Test Planning. 
+Phase 3: Test case development.
+Phase 4: Test Environment setup.
+Phase 5: Test Execution
+Phase 6: Test Closure.
+
+Phase 1: Requirement Analysis.
+	Testing team will go through the SRS document and if there are any doubts, they conduct meeting with BA,
+Dev team and prepare the following report.
+
+1. Automation Feasibility Report
+	Based on this report they will decide whether to go for Manual or Automation. 
+	Above 70 - Automation
+	Between 60 to 70 - Provide Proof of Concept.
+	Below 50 - Manual.
+
+2. Requirement Tracebility Matrix
+	To map the business requirement with test cases.
+
+Phase 2: Test Planning. 
+	Only the lead or Manager will be involved and they will prepare two documents:
+
+1. Stratergy Document
+2. Test Plan
+
+Phase 3: Test case development
+
+
+Decision Table: 2 ^ n -- n denotes the set of conditions. 
+
+2 ^ 2 - 4 set of data. 
+
+QA & QC Testings:
+
+Quality Assurance : Process oriented approach focused on preventing defects and maintaining quality outsome.
+Verification.
+
+Quality Control: Product-focus approach invloves inspection and testing of the product aims to identify and correct
+		defect or deviation from quality level. 
+Validation.
+
+
+
+AGILE METHODOLOGY:
+
+
+Agile Model:
+
+Advantages of an agile:
+
+i)It is used for big project
+
+Ans: Big project is divided in to smaller units/chunks/iteration that is called as sprint.
+
+Ex: Just consider any app, which contains nearly 150 modules. By using an agile, i can split
+that 150 as 15(each sprint)  --->15 X 10 =150 1 sprint 2 weeks -> 
+
+ii)If the req's are not stable we can use agile or if the req's gets changed in between we can use 
+this agile model.
+
+iii)Customer interaction will be available through out the project.
+
+Agile is an iterative and incremental model.
+Iterative Development: Software is developed and delivered to the customer and based on the feedback again 
+developed in cycles or releases and sprints. 
+Example: Release 1 software is developed in 5 sprints and delivered to the 
+customer. Now, the customer wants some changes, then the development team plan for 
+2nd release which can be completed in 
+some sprints and so on. 
+Incremental Development: Software is developed in parts or increments. 
+In each increment, a portion of the complete
+ requirement is delivered
+
+
+To implement the agile methodology we do have many frameworks 
+a)Scrum   b)kanban  c)Extreme Programming(XP)
+Out of these the scrum is the most commonly n widely used framework.
+
+Scrum: Scrum is the framework which is used to implement an agile methodology
+Framework: It is a set of rules or protocols to  implement anything.
+
+Sprint --->It is a continuos time-boxed life cycle.
+The duration of the sprint : It should not go beyond 4 weeks(1 month)
+
+Agile core values:
+
+Individuals and interactions over processes and tools;
+working software over comprehensive documentation;
+customer collaboration over contract negotiation; and.
+responding to change over following a plan.
+
+In agile the requirements call as "Userstories"
+Ex: In gmail, in the login functionality ,each field UN,PWD,login button ---> these are called as user story
+Collection of user story -->called as Epic
+Ex:UN,PWD,login button--> the entire login functionality is called as an epic
+
+Product owner  --> who collects the user stories from the client  -->Prepare the user stories
+
+Scrum Roles:
+i)Scrum team
+ii)Product owner
+iii)Scrum Master
+
+i)Scrum team:
+
+a)It is a self-organized team(There is no bossy culture)
+b)It is a cross-functional team (All the members(business ppl,desingers,dev,testers) all work together
+in the same place
+c)Team size is 6 + or - 3.
+
+ii)Product owner:
+a)Who collects the user stories from the client
+b)Who acts as a "bridge" b/w the client and the team
+c)Who prioritize/re-prioritize the user stories from the backlog
+d)Who will decide whether the sprint should gets releases or not.
+
+iii)Scrum Master(3 P's)
+a)Process coach
+b)Protector
+c)Problem solver
+
+
+
+Taskboard is a dashboard that shows the progress of the project.
+It contains:
+• User Story: It has the actual business requirement.
+• To Do: Tasks that can be worked on.
+• In Progress: Tasks in progress.
+• To Verify: Tasks pending for verification or testing
+• Done: Completed tasks.
+
+
+What is the Zero sprint in Agile?
+ It can be defined as a pre-preparation step to the first sprint. Activities like setting 
+development environment, preparing backlog, etc need to be done before starting the first 
+sprint and can be treated as Sprint zero.
+
+ How QA can add value to an agile team?
+ QA can provide value addition by think outside the box about the various scenarios 
+to test a story. They can provide quick feedback to the developers about whether new 
+functionality is working fine or not.
+
+
+Scrum Meetings:
+i)Story grooming meeting
+ii)Sprint planning meeting
+iii)Daily scrum meeting
+iv)Sprint review meeting
+v)Sprint retrospective meeting
+
+i)Story grooming meeting
+ Grooming is an open discussion b/w scrum team or scrum dev team and PO
+The user stories(req's) are discussed to help the team to gain better understanding abt the 
+functionality.
+Have to give story points (measure to indicate the work to be done(hrs,days)
+Have to give story points with the help of planning poker tool.
+
+1 user point - 3hr
+
+Username - user story - 2 point 
+
+des-->12 hrs --->3 story points        1 story point --> 4hrs
+dev-->12 hrs --- 3 story points 
+tes-->16 hrs --->4 s.p
+All the team members will use this tool during the story grooming meeting they will give 
+the story points.(in the fibonacci series)
+0,1,1,2,3,5,8,13,21.....
+1 story point  = 4hrs 
+ex: Login functionlaity (12 hrs)
+1Story point --> 3hrs 
+1 designer   3 dev       2 testers  --->6 team ppl
+
+des-->4      3 dev->4     2-->no we cant give 4 they give some other value
+majority -->4    they ask to 2 testers why they are not accepting, 
+if it is valid they consider that..they will
+give their opinion,
+again regrooming  --> can change their story point value
+
+2.Sprint planning meeting:
+
+PO,SM,team  -->plan for the sprint
+Like what are all the user stories they have to complete for the particular sprint,sprint duration,
+roles and responsibilities for each team member.
+SPM  --> 2hrs x No.of weeks of sprint (3 weeks)
+     -->2 x 3 = 6 hrs
+
+3. Daily scrum(stand-up) meeting:
+15 mins
+ What is the importance of daily stand up meetings?
+ Daily stand up meeting is essential for any team in which team discuss,
+1. How much work has been completed?
+2. What are the plans to resolve technical issues?
+3. What steps need to done to complete the projects etc?
+No discussions no interference
+They will discuss what they did yesterday, what they gonna do for today
+What are all the blocks/difficulties they faced.
+Scrum master will note down all the blocks.
+Once the meeting gets end they will discuss this.
+
+4.Sprint review meeting:
+1 hr x No.of weeks of sprint (2 week)
+1 x 2 --> 2hrs
+Before the release of the sprint, they(team) will give demo to the PO,client,SM
+If they are ok PO decides whether the sprint should gets released or not.
+PO may give some give modifications(enhancements) -->will gets added in the backlog (which is not yet completed)
+
+5.Sprint retrospective meeting:
+1 hr x No.of weeks of sprint (2 week)
+1 x 2 --> 2hrs
+They will discuss the lessons learned(+,or -) from the previous sprint.
+They use it for the upcoming releases.
+
+The Product backlog is maintained by the product owner which contains every 
+feature and requirement(41 user stories) of the product.
+
+sprint 4: 19 US(completed)
+
+
+Sprint backlog can be treated as the subset of product backlog which contains features and 
+requirements related to that particular sprint only.
+
+Spill over:
+If any user story which is not yet completed in the particular sprint
+we can able to move on to the next upcoming sprint
+
+
+TYPES OF TESTING
+
+
+
+Day 4: Agile Methodology and Types of Testing
+---------------------------------------------
+Framework - set of rules or protocols to implement anything.
+
+Type of Testing:
+----------------
+White Box -> Structural Based Testing
+Black Box -> Specification Based Testing
+Grey Box -> Combination of white box and black box
+
+Black Box :
+
+1. Functional Testing - Based on the input given whether the app is working fine or not.
+2. Non-Functional - Testing the speed and performance. 
+
+Perfomance Testing: 
+Load - With the limit.
+Stress - beyond the limit.
+
+Scalability Testing
+Usability Testing : Testing the app look and feel.
+Compatibility Testing: Whether the app is working on all device,websites,OS etc.,
+Accessability Testing: Checking whether the app is accessible by everyone.
+
+Functional Testing: 
+
+Smoke Testing:
+
+Testing the basic or critical functionality is working fine or not.
+Eg: Login, Payment
+
+Re-testing: 
+
+Testing the failed test case again. Once the developers fixed the bug, the testers has to test it again.
+
+Regression Testing: 
+
+=> Done after there is an enhancement made to the build.
+=> Testing addressed scope along with it's related functionality.
+
+Eg:Forgot password -> Login page.
+
+Smoke is a subset of Acceptance -> because if smoke fails we will give back to developers.
+Sanity is a subset of Regression -> Testing happens when there is an enchancement. 
+
+Exploratory Testing: Testing done by experienced person.
+
+Adhoc Testing: The person who does this have coding and testing knowledged.
+		They pick random functionality and do the testing.
+
+
+Day 5: Test case & Bug reportings
+----------------------------------
+https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+Test Scenario:
+--------------
+	Document that covers the end-to-end functionality of the software very briefly.
+	Mostly in one line, from user-end perspective.
+	Focus on what to test than how to test.
+	Dereived from BRS,FRS,SRS.
+		Eg: To check payment functionality
+		    To check ticket booking functionality. 
+		    
+Test Cases:
+-----------
+	Set of actions executed to verify a particular feature or functionality of our software application.
+	Focus on what to test and how to test. 
+
+Test Strategy: 
+--------------
+ 	High-level and comprehensive document describing the software testing approach. 
+
+Test Plan:
+----------
+	Detailed document that catalogs the test strategy, objectives, schedule, estimations, deadlines and resources required to complete the project.
+
+
+Bug Life Cycle:
+---------------
+
+	Error found by tester is called Defect.
+	The same accepted by developer is called bug.
+
+1. New -> When the bug is identified
+2. Assigned -> When its assigned to a developer
+3. Open -> When the developer starts to work on the reported bug.
+4. Pending retest -> If the tester is occupied with other work. 
+5. Retest -> Tester will restest the changed code.
+6. Reopen -> If the bug is still prsent even after developers change.
+7. Verified -> Verify whether all the reported bugs are fixed. 
+8. Closed -> Once all the bugs are fixed. 
+
+Rejection Resons:
+
+Duplicate
+Not a bug
+Deferred 
+
+Categories of Defect:
+
+Wrong
+Missing 
+Extra
+
+Defect that blocks the user from using the application further is called Blocker user defect.
+
+Bug leakage - Product is released, but the defect is found by end user that is missed by tester. 
+Bug release - Releasing the product with the know low priority defect.
+
+Test Bed -> Environmental setup. 
+Test Suite -> Collection of test cases.
+
+
+DATE: 22/09/2023 
+
+Day 6 : Project Management Tool - JIRA
+--------------------------------------
+
+Hands-on with Jira & Scrum:
+	Creating epic
+	User stories
+	Sprint planninG
+	Backlog
+
+	Seviority
+	Priority  
+	Release Version.
+
+Jira: 
+	It's a tool developed by Australian company Attlassian. It is used for bug tracking, 
+issue tracking and project management that helps you manage your project effectively and smoothly.
+ 	It's a powerful tool - Bug, issue, backlog of the project. 
+	JIRA-Cloud platform.
+
+We can manage: 
+Planning
+Tracking
+Releasing
+Reporting
+
+What is Epic? 
+	Large user story i.e Collection of user story. It cannot be delivered single iteration.
+
+What is user stories? 
+	Smallest unit of work.
+	Epic broken into set of stories.
+
+The purpose of user story is to articulate how a piece of work will be deleivered to particular client. 
+
+Eg: As a [person],I [want to], [so that I can acheive]
+As a user, I want to access registeration page, so that I can register successfully. 
+
+Online Shopping cart:
+As a user, I want to select item and add to shopping cart.
+
+
+1.Create User story
+2.Create Epic
+3.Assign user stories to its corresponding Epic.
+4.Drag and drop user stories from backlog tp sprint
+5.Start sprint -> Sprint duration etc.,
+6.Change the status of the user story from To-Do to In-progress to Done. (Board -> drag and drop)
+7.Once user stories are donr, go to backlog and complete sprint. 
+
+
+AIO Test: 
+
+
+
+
+
+
+
+
+ Day - 7 : Git & Github
+----------------------
+	Github Signup
+	Download & Install Git 
+	Git Setup: Your Name & Email
+	Create a New Local Git Repository (Initialize Repository)
+	Stage & Commit Files
+	Push to a Remote Repository
+	Clone (Download) a Remote Repository
+	Git Pull and Merge
+
+Version control system - Changes made to local system over a period of time, we have to maintain the version.
+
+
+Git - Version control system tracking tool with which we can make entire project code at one place to the github. (Local system)
+GitHub - It's like a godown where we keep central copy of our entire files, code, test etc.,(Remote location).
+
+--------------------------------------------------------
+
+1. Create Repo
+2. Created a file in local system
+3. Configuraion. -  git config --global user.name "your name"
+			git config --global user.email "your email"
+
+4. git init - .git inside your project directory. (Its a hidden file)
+	intializes the new repo when we work on the projrct in initial stages. (only one time).
+
+a) 2 stages: 1) Staging area 2) Commit area
+
+
+5. git add . (all the files of the folder will be included)
+	git add filename (only that will be included) eg: git add firstfile.txt 
+
+6. git commit -m "Your message" 
+
+7. git status - To check the status
+
+8. git branch -m main
+
+9. git remote add origin "repo url.git"               git remote add origin https://github.com/Vignesh220698/Demofile.git
+
+10. git push origin main
+
+
+Clone (Download) a Remote Repository Git Pull and Merge:
+--------------------------------------------------------
+
+=> First Forking - Remote(someother person) to remote(yours) copy
+=> git clone "your url"(yours to yours) - remote to local
+	We made some changes to the files
+=> cd (to folder)
+=> git checkout -b - to set branch
+=> git remote add upstream "your url.git"
+=> git init
+=> git add .
+=> git commit -m "some message"
+=> git push -u origin (branch name)
+=> Go to your profile (compare and pull request) - verify and create pull request
+=> the person has to accept. 
+
+
+
+
+
+
+
